@@ -1,0 +1,52 @@
+body{
+    background-color:azure;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 2px;
+    font-family:'Times New Roman', Times, serif;
+}
+header,
+footer
+{
+    text-align: center;
+    background-color: gainsboro;
+}
+h4{
+    color:black;
+    text-decoration-line: underline;
+    text-align:left;
+    background-color: rgb(23, 150, 150);
+}
+p{
+    text-align: justify;
+    text-indent: 8ch;
+    background-color: rgb(153, 206, 223);
+}
+p::first-letter {
+    font-size:120%;
+    color: rgb(8, 42, 105);
+    text-decoration-line: underline;
+}
+li{
+    text-align:left;
+}
+.letter1 {
+    color: black;
+    text-decoration-line: underline;
+    font-size: 120%;
+}
+aside {
+    background:azure;
+    padding: 30px;
+    width: 400px;
+    float: right;
+   }
+   article {
+    margin-right: 240px;
+    display: block;
+   }
+   article {
+    padding-left: 7%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+   }
